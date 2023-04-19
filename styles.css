@@ -1,7 +1,15 @@
 /*Mondrian Painting*/
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    margin: auto;
     display: grid;
     background-color: #000;
     grid-template-columns: 320px 198px 153px 50px;
